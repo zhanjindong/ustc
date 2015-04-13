@@ -10,7 +10,7 @@
     <meta name="author" content="{{ site.author.name }}">
     <meta name="description" content="{% if page.description == null %}{{ site.description }}{% else %}{{ page.description }}{% endif %}" />
     <meta name="keywords" content="{{ site.author.username }},{% if page.tags != null %}{{ page.tags | join: ',' }}{% else %}{{ site.translations.keywords }}{% endif %}" />
-    {% if page.url == "/404.html" %}<meta http-equiv="refresh" content="5; url=/blog">{% endif %}
+    {% if page.url == "/404.html" %}<meta http-equiv="refresh" content="5; url=/ustc">{% endif %}
 
     <title>{% if page.url != "/index.html" %}{{ page.title }} - {% endif %}{{ site.title }}</title>
 
@@ -66,7 +66,7 @@
                         <ul>
                             <li class="logo nav-link">
                                 <button class="btn-menu" data-ga="Menu"></button>
-                                <a href="/blog">{{ site.title }}</a>
+                                <a href="/ustc">{{ site.title }}</a>
                                 <!--[if !IE]> --><button class="btn-search" data-ga="Search"></button><!-- <![endif]-->
                             </li>
                             <li class="nav-link"><a data-ga="OOAD" href="/ustc/categories#ooad">{{ site.translations.ooad }}</a></li>
