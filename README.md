@@ -1,2 +1,2 @@
 # ustc
-study in ustc
+Learning in USTC.
